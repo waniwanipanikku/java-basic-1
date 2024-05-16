@@ -11,7 +11,7 @@ public class ValentineDayClient {
             Scanner scanner = new Scanner(System.in);
             System.out.print("ポートを入力してください(5000など) → ");
             int port = scanner.nextInt();
-            //scanner.next();
+            
 
             System.out.println("localhostの" + port + "番ポートに接続を要求します");
             Socket socket = new Socket("localhost", port);
@@ -44,8 +44,8 @@ public class ValentineDayClient {
 
             String replayMsg = okaeshiPresent.getMessage();
             System.out.println("サーバからのメッセージは" + replayMsg);
-            String replayContent = okaeshiPresent.getContent();
-            System.out.println(replayContent + "をもらいました！");
+            //String replayContent = okaeshiPresent.getContent();
+            //System.out.println(replayContent + "をもらいました！");
             }
             scanner.close();
             ois.close();

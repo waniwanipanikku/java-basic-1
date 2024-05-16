@@ -1,18 +1,21 @@
-## Getting Started
+## ValentineDayServerを起動する
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+「ポートを入力してください(5000など)」と表示される。そのため、5000を入力すると「localhostの5000番ポートで待機します」と表示される。
 
-## Folder Structure
+## ValentineDayClientを起動する
 
-The workspace contains two folders by default, where:
+「ポートを入力してください(5000など)」と表示される。「localhostの5000番ポートに接続を要 求します
+接続されました
+贈り物を送ります
+メッセージを入力してください(例:ハッピーヴァレンタイン！) ↓」と表示されるため、メッセージを入力すると「プレゼントの内容を入力してください(例:チョコ) ↓」と表示される。プレゼント内容を入力すると「サーバからのメッセージはサーバーです。ハッピーヴァレンタイン！      
+○○ありがとう。
+!○○!をもらいました！」
+と表示され、○○にはプレゼント内容が入る。
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ValentineDayServerの方では、、、
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+「メッセージは　メッセージ内容
+贈り物の中身は　○○
+接続しました。」が表示されている。
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## これが繰り返される

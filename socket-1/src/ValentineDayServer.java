@@ -6,20 +6,6 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ValentineDayServer {
-
-    private static final int times = 2;
-
-    private static String serverProcess(String content) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("!");
-        for (int i = 0; i < times; i++) {
-            sb.append(content);
-        }
-        sb.append("!");
-        String result = sb.toString();
-        return result;
-    }
-
     public static void main(String arg[]) {
         try {
             /* 通信の準備をする */
@@ -51,8 +37,8 @@ public class ValentineDayServer {
 
             
             ValentineDay response = new ValentineDay();
-            response.setMessage("サーバーです。ハッピーヴァレンタイン！\n" + presentFromClient + "ありがとう。");
-            response.setContent(serverProcess(presentFromClient));
+            response.setMessage("サーバーです。ハッピーヴァレンタイン！\n" + presentFromClient + "ありがとう。\n"+presentFromClient+"をもらいました");
+            
             
             oos.writeObject(response);
             oos.flush();
