@@ -1,0 +1,5 @@
+Kadai1.DendaiUDPServer1 "
+Received: abc
+
+Kadai1.DendaiUDPClient1 "
+From Server: ABC

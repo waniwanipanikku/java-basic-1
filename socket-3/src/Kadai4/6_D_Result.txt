@@ -1,0 +1,78 @@
+Count:1
+Alphabet:A
+Current Time: 14:33:36.338096700
+Count:2
+Alphabet:B
+Current Time: 14:33:36.853901100
+Count:3
+Alphabet:C
+Current Time: 14:33:37.361645500
+Alphabet:D
+Count:4
+Current Time: 14:33:37.874665100
+Count:5
+Alphabet:E
+Current Time: 14:33:38.382648400
+Count:6
+Alphabet:F
+Current Time: 14:33:38.888139100
+Count:7
+Alphabet:G
+Current Time: 14:33:39.404586100
+Alphabet:H
+Count:8
+Current Time: 14:33:39.920309800
+Count:9
+Alphabet:I
+Current Time: 14:33:40.421998500
+Alphabet:J
+Count:10
+Current Time: 14:33:40.926206
+Alphabet:K
+Count:11
+Current Time: 14:33:41.429115400
+Count:12
+Alphabet:L
+Current Time: 14:33:41.929924
+Alphabet:M
+Count:13
+Current Time: 14:33:42.444613200
+Count:14
+Alphabet:N
+Current Time: 14:33:42.959188900
+Alphabet:O
+Count:15
+Current Time: 14:33:43.472087800
+Alphabet:P
+Count:16
+Current Time: 14:33:43.974129300
+Alphabet:Q
+Count:17
+Current Time: 14:33:44.492191
+Count:18
+Alphabet:R
+Current Time: 14:33:44.997701500
+Alphabet:S
+Count:19
+Current Time: 14:33:45.498904300
+Alphabet:T
+Count:20
+Current Time: 14:33:46.000353
+Alphabet:U
+Count:21
+Current Time: 14:33:46.504732300
+Count:22
+Alphabet:V
+Current Time: 14:33:47.009610400
+Alphabet:W
+Count:23
+Current Time: 14:33:47.523371600
+Alphabet:X
+Count:24
+Current Time: 14:33:48.039288400
+Alphabet:Y
+Count:25
+Current Time: 14:33:48.552466200
+Alphabet:Z
+Count:26
+Current Time: 14:33:49.061322500
