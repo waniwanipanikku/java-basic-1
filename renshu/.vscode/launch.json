@@ -1,0 +1,55 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ArraysTest",
+            "request": "launch",
+            "mainClass": "dai2.ArraysTest",
+            "projectName": "renshu_3ddf86b3"
+        },
+        {
+            "type": "java",
+            "name": "HowOldAreYou",
+            "request": "launch",
+            "mainClass": "dai2.HowOldAreYou",
+            "projectName": "renshu_3ddf86b3"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "dai2.Hello",
+            "projectName": "renshu_3ddf86b3"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "renshu_3ddf86b3"
+        },
+        {
+            "type": "java",
+            "name": "HelloArgs",
+            "request": "launch",
+            "mainClass": "dai2.HelloArgs",
+            "projectName": "renshu_3ddf86b3",
+            "args": [
+                "A0",
+                "A1",
+                "A2",
+                "A3"
+            ]
+        }
+    ]
+}
