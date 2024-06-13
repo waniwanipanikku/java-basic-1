@@ -9,6 +9,7 @@ import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.Random;
 
 public class FacesAWTMain {
 
@@ -87,11 +88,12 @@ public class FacesAWTMain {
 		}
 
 		public void drawFace(Graphics g) {
+			Random rand = new Random();
 			drawRim(g);
-			drawBrow(g, 30);
-			drawEye(g, 35);
-			drawNose(g, 40);
-			drawMouth(g, 100);
+			drawBrow(g, rand.nextInt(50) + 20); // ランダムな眉の幅
+			drawEye(g, rand.nextInt(20) + 15); // ランダムな目の半径
+			drawNose(g, rand.nextInt(100) + 50); // ランダムな鼻の位置
+			drawMouth(g, rand.nextInt(100) + 50);
 		}
 
 		public void drawBrow(Graphics g, int bx) { // xは目の幅 呼ばれる方(=定義する方)
